@@ -53,7 +53,7 @@ body {
     margin-top: -15%;
   }
   
-  span{
+  span {
     display: inline-block;
   }
   
@@ -76,17 +76,17 @@ body {
     font-weight: normal;
   }
   
-  .box-age, .box-country, .box-type{
+  .box-age, .box-country, .box-type {
     color: hsl(227, 10%, 46%);
   }
   
-  .box-name, .box-value{
+  .box-name, .box-value {
     color: hsl(229, 23%, 23%);
     font-weight: 700;
     font-size: 18px;
   }
   
-  .box-value, .box-type{
+  .box-value, .box-type {
     margin: 0;
   }
   
