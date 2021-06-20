@@ -1,57 +1,86 @@
+/* Font Imports */
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+/* Colors */
+:root {
+    --orange: hsl(31, 77%, 52%);
+    --cyan: hsl(184, 100%, 22%);
+    --dark-cyan: hsl(179, 100%, 13%);
+
+    --trans-white: hsla(0, 0%, 100%, 0.75);
+    --light-gray: hsl(0, 0%, 95%);
+}
+
+/* Style */
+
 * {
     margin: 0;
     padding: 0;
+    font-size: 100%;
     box-sizing: border-box;
 }
 
-/* @media screen and (min-width:1920px) {
-    html {
-        font-size: 1.3em;
-    }   
-} */
-
 body {
-    margin: 10rem;
-    display: flex;
-    flex-direction: column;
+    background-color: var(--light-gray);
+    padding: 88px 0;
 }
 
-/* @media screen and (max-width:375px) {
-    body {
-        padding: 5rem 1rem;
-        margin: 0;
-    }
-} */
+h2 {
+    font-family: 'Big Shoulders Display', sans-serif;
+    color: var(--light-gray);
+    font-size: 32px;
+    text-transform: uppercase;
+    padding-bottom: 40px;
+}
+
+p{
+    color: var(--trans-white);
+    font-family: 'Lexend Deca', sans-serif;
+    line-height: 1.6;
+    padding-bottom: 30px;
+}
 
 .boxes {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-auto-rows: 400px;
-    /* display: flex;
-    height: 60vh;
-    overflow: hidden;
-    border-radius: 10px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-/* @media screen and (max-width: 375px) {
-    .boxes {
-        height: max-content;
-        flex-direction: column;
-    }
-} */
 
 .box {
-    border:1px solid;
-    padding: 4rem 3rem;
-    display: flex;
-    flex-flow: column;
+    max-width: 327px;
+    min-height: 442px;
+    margin-top: 100px;
+    padding: 48px 50px;
+    border:1px solid black;
     border-radius: 10px;
 }
-/* @media screen and (max-width: 375px) {
-    .box {
-        min-height: 35rem;
-    }
-} */
 
+#sedans {
+    background-color: var(--orange);
+    border-radius: 8px 8px 0 0;
+}
+
+#suvs {
+    background-color: var(--cyan);
+}
+
+#luxury {
+    background-color: var(--dark-cyan);
+    border-radius: 0 0 8px 8px;
+}
+
+/* Buttons */
+.btn {
+    background-color: var(--light-gray);
+    font-family: 'Lexend Deca', sans-serif;
+    padding: 18px 30px;
+    border-radius: 24px;
+    border: none;
+    cursor: pointer;
+}
 
 .attribution { 
     font-size: 11px; 
