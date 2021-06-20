@@ -101,6 +101,22 @@ p{
    background-repeat: no-repeat; 
 }
 
+/* Media Queries */
+@media only screen and (min-width: 1000px) {
+    body {
+        padding: 0;
+    }
+
+    .boxes {
+        flex-direction: row;
+        height: 100vh;
+    }
+
+    p {
+        line-height: 1.6;
+        padding-bottom: 64px;
+    }
+}
 
 .attribution { 
     font-size: 11px; 
