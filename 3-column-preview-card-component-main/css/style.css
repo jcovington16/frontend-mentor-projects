@@ -60,7 +60,6 @@ p{
 
 #sedans {
     background-color: var(--orange);
-    border-radius: 8px 8px 0 0;
 }
 
 #suvs {
@@ -68,8 +67,7 @@ p{
 }
 
 #luxury {
-    background-color: var(--dark-cyan);
-    border-radius: 0 0 8px 8px;
+    background-color: var(--dark-cyan);  
 }
 
 /* Buttons */
@@ -81,6 +79,28 @@ p{
     border: none;
     cursor: pointer;
 }
+
+.btn-sedans {
+    color: var(--orange);
+}
+
+.btn-suvs {
+    color: var(--cyan);
+}
+
+.btn-luxury {
+    color: var(--dark-cyan);
+}
+
+/* Images */
+.box__img {
+   width: 65px;
+   height: 40px;
+   color: var(--trans-white);
+   margin-bottom: 44px;
+   background-repeat: no-repeat; 
+}
+
 
 .attribution { 
     font-size: 11px; 
