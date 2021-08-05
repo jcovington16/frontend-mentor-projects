@@ -18,25 +18,24 @@
 
 body {
     background-color: black;
+    display: flex;
+    @media screen and (max-width: 62em) {
+        display: block;
+    }
 }
 
-.box_paragraph {
-    background-color: hsl(244, 38%, 16%);
-}
-
-p {
-    font: Lexend Deca;
-    color: lightgray;
-}
-
-.box__heading {
+main {
     color: white;
+    flex: 1 0 50%;
+}
+
+aside {
+    flex: 1 0 50%;
 }
 
 span {
     color: var(--violet);
 }
 
-.attribution {
-    margin-top: 20px;
-}
+
+
