@@ -45,3 +45,65 @@ body {
     width: 100%;
     height: auto;
 }
+
+.text_container {
+    text-align: center;
+}
+
+.text_container h1 {
+    margin-bottom: .75rem;
+    color: var(--Dark-blue);
+    font-size: calc(var(--font-size) * 1.25);
+    font-family: var(--font-family);
+    font-weight: var(--font-bold);
+    word-spacing: 1pt;
+}
+
+.text_container h2 {
+    color: var(--Grayish-blue);
+    font-size: calc(var(--font-family) * .95);
+    font-family: var(--font-family);
+    font-weight: var(--font-regular);
+}
+
+@media screen and (max-width: 424px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media screen and (width: 375px) {
+    .container {
+        width: 82%;
+    }
+}
+
+@media screen and (width: 425px) {
+    .container {
+        width: 75%;
+    }
+}
+
+@media screen and (width: 768px) {
+    .container {
+        width: 70%;
+    }
+}
+
+@media screen and (width: 1024px) {
+    .container {
+        width: 32%;
+    }
+}
+
+@media screen and (width: 1440px) {
+    .container {
+        width: 22%;
+    }
+}
+
+@media screen and (min-width: 1441px) {
+    .container {
+        width: 12%;
+    }
+}
