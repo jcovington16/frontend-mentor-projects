@@ -4,3 +4,20 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #F2F2F2;
+}
+
+
+@media (min-width: 375px) { 
+    body {
+        margin: 30px;
+    }
+    .image {
+        max-width: 330px;
+    }
+ }
+
+ @media (min-width: 600px) {
+    
+ }
