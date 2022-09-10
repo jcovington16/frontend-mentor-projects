@@ -5,17 +5,74 @@
 }
 
 body {
+    min-height: 100vh;
+    font-family: 'Fraunces', serif;
+    width: 50%;
+    font-size: 14px;
     background-color: #F2F2F2;
 }
 
+.preview {
+    display: flex;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.image {
+    width: 375px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.card {
+    margin: 20px 35px;
+}
+
+h3 {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+    color: gray;
+    font-weight: 500;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1;
+    letter-spacing: 1px;
+}
+
+button {
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    padding: 15px 50px;
+    border: none;
+
+}
 
 @media (min-width: 375px) { 
     body {
         margin: 30px;
     }
     .image {
-        max-width: 330px;
+        max-width: 430px;
     }
+
+    .prices {
+        display: flex;
+    }
+
+    .price2 {
+        margin: 4px;
+        margin-left: 10px;
+        font-size: 10px;
+    }
+
+    .preview {
+        /* display: grid; */
+    }
+    
  }
 
  @media (min-width: 600px) {
