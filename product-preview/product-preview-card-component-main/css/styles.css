@@ -10,6 +10,10 @@ body {
     width: 50%;
     font-size: 14px;
     background-color: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .preview {
@@ -43,15 +47,47 @@ h2 {
     letter-spacing: 1px;
 }
 
+.description {
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: gray;
+    line-height: 1.4;
+}
+
 button {
-    background-color: hsl(158, 36%, 37%);
+    background-color: hsl(150, 46%, 30%);
     color: white;
     padding: 15px 50px;
     border: none;
-
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
 }
 
-@media (min-width: 375px) { 
+button:hover {
+    background-color: hsl(150, 46%, 30%);
+}
+
+.cart {
+    margin-right: 6px;
+}
+
+.prices {
+    color:hsl(158, 36%, 37%);
+    display: inline-block;
+    font-size:30px;
+}
+
+del {
+    margin: auto  30px;
+    color: gray;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+@media (max-width: 375px) { 
     body {
         margin: 30px;
     }
@@ -69,12 +105,9 @@ button {
         font-size: 10px;
     }
 
-    .preview {
-        /* display: grid; */
-    }
-    
- }
-
- @media (min-width: 600px) {
+    /* .preview {
+        display: flex;
+        flex-direction: column;
+    } */
     
  }
