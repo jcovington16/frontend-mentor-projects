@@ -1,3 +1,5 @@
+@import url(https://fonts.google.com/specimen/Outfit);
+
 body {
     background-color: hsl(217, 54%, 11%);
 }
@@ -26,11 +28,15 @@ body {
     padding-top: 15px;
 } 
 
-h4 {
+h3 {
     font-family: 'Outfit';
-    src: url(https://fonts.google.com/specimen/Outfit);
-    color: hsl(178, 100%, 50%);
     padding-left: 25px;
+    margin-bottom: 16px;
+}
+
+h4:hover {
+    color: #00FFF8;
+    cursor: pointer;
 }
 
 .para p {
@@ -38,12 +44,12 @@ h4 {
     font-family: 'Outfit';
     font-style: normal;
     font-weight: 300;
-    src: url(https://fonts.google.com/specimen/Outfit);
     padding-left: 25px;
     padding-right: 25px;
     font-weight: 300;
     line-height: 26px;
     height: 52px;
+    margin-bottom: 24px;
 
 }
 
@@ -56,10 +62,56 @@ h4 {
     padding-right: 25px;
 }
 
+.span1 img {
+    width: 11px;
+    height: 18px;
+    padding-right: 5px;
+    top: 1px;
+}
+
+.span1 {
+    color: hsl(178, 100%, 50%);
+}
+
+.span2 img {
+    width: 13.33px;
+    height: 13.33px;
+    padding-right:5px
+}
+
+.span2 {
+    color:#8BACD9;
+    margin-right: 5px;
+}
+
 .avatar {
     display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+
+.avatar img {
     width: 33px;
     height: 33px;
+    box-sizing: border-box;
+    border: 1px solid #FFFFFF;
+    border-radius: 20px;
+    margin-left: 25px;
+    margin-right: 16px;
+}
+
+.avatar_span {
+    color: #8BACD9;
+}
+
+.hr {
+    width: 302px;
+    color: #2E405A;
+    height: 1px;
+    margin-top: 24px;
+    margin-bottom: 16px;
 }
 
 .attribution {
