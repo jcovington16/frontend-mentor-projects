@@ -16,13 +16,19 @@
     font-size: 100%;
 }
 
-body {
+.card {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+/* body {
     background-color: black;
     display: flex;
     @media screen and (max-width: 62em) {
         display: block;
     }
-}
+} */
 
 main {
     color: white;
@@ -36,6 +42,3 @@ aside {
 span {
     color: var(--violet);
 }
-
-
-
