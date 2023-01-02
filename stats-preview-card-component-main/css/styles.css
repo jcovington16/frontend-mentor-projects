@@ -10,7 +10,7 @@
 
 /* Style */
 
-*{
+* {
     margin: 0;
     padding: 0;
     font-size: 100%;
@@ -29,15 +29,6 @@
         display: block;
     }
 } */
-
-main {
-    color: white;
-    flex: 1 0 50%;
-}
-
-aside {
-    flex: 1 0 50%;
-}
 
 span {
     color: var(--violet);
