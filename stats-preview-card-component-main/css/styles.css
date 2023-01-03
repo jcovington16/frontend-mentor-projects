@@ -17,12 +17,6 @@
 
 /* Style */
 
-* {
-    margin: 0;
-    padding: 0;
-    font-size: 100%;
-}
-
 body {
     background-color: black;
     height: 100vh;
@@ -34,20 +28,23 @@ body {
    align-items: center;
    border: 1px solid black;
    border-radius: 10px;
-   background-color: white;
 }
 
 .left {
     color: white;
     background-color: var(--dark-color);
-    /* background-color: var(--desaturated-blue); */
-    width: 400px;
+    width: 50%;
     
+}
+
+.right {
+
 }
 
 .info {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+
 }
 
 .image {
@@ -60,9 +57,8 @@ span {
     color: var(--violet);
 }
 
-.info-desc h3 {
+.info-desc h4 {
     color: var(--White-);
-    font-size: 1.3rem;
     text-transform: uppercase;
 }
 
