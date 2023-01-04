@@ -53,6 +53,22 @@ body {
     
 }
 
+.left h2 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    color: var(--White-);
+    font-size: 1.6rem;
+    line-height: 1.4;
+    margin-bottom: 1.5rem;
+}
+
+.left p {
+    font-size: 0.775rem;
+    color: var(--Slightly-transparent-white1-);
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
 .right {
     position: relative;
 }
