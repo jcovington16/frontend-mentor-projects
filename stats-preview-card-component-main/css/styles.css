@@ -16,10 +16,26 @@
 }
 
 /* Style */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.attribution {
+    font-size: 11px;  
+    text-align: center; 
+}
+
+.attribution a { 
+color: hsl(228, 45%, 44%); 
+}
 
 body {
     background-color: black;
     height: 100vh;
+    font-family: 'Inter', sans-serif;
+
 }
 
 .card {
@@ -27,7 +43,7 @@ body {
    justify-content: center;
    align-items: center;
    border: 1px solid black;
-   border-radius: 10px;
+   border-radius: 12px;
 }
 
 .left {
@@ -38,13 +54,17 @@ body {
 }
 
 .right {
-
+    position: relative;
 }
 
-.info {
-    display: flex;
-    justify-content: space-around;
-
+.back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    background-color: var(--Soft-violet-);
 }
 
 .image {
@@ -53,23 +73,25 @@ body {
     object-fit: cover;
 }
 
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+ul li span {
+    display: block;
+    margin-top: 8px;
+    font-size: 0.75rem;
+    font-weight: 400;
+}
+
 span {
     color: var(--violet);
 }
 
-.info-desc h4 {
-    color: var(--White-);
-    text-transform: uppercase;
-}
-
-.info-desc p {
-    display: block;
-    margin-top: 8px;
-    color: var(--Slightly-transparent-white2-);
-    font-size: 0.75rem;
-    font-weight: 400;
-    text-transform: uppercase;
-}
 
 /* body {
     background-color: black;
