@@ -156,6 +156,8 @@ span {
     body {
       padding: 1.25rem;
       text-align: center;
+      display: flex;
+      flex-flow: column;
     }
 
     .card {
@@ -163,7 +165,11 @@ span {
     }
 
      .left {
-      order: 1;
+      order: 2;
+    }
+
+    .right {
+        order: 1;
     }
 
      .left h2 {
@@ -189,5 +195,3 @@ span {
     }
     
   }
-
-
