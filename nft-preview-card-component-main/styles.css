@@ -10,8 +10,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     background-color:#15263F;
-    width: 350px;
-    height: 596px;
+    max-width: 350px;
     border: 1px solid black;
     border-radius: 5%;
     color: white;
@@ -118,7 +117,7 @@ h1:hover {
     margin-bottom: 16px;
 }
 
-.attribution {
+.attribution:focus-visible {
     margin-left: auto;
     margin-right: auto;
     width: 400px;
